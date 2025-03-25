@@ -2,6 +2,8 @@
 
 This n8n workflow automates the process of downloading a PDF from Google Drive, generating multilingual embeddings using Cohere, and storing them in a Supabase vector store. It also features a chat-based question-and-answer system powered by xAI's Grok model.
 
+![EmbeddingWithChatBasicExample](EmbeddingWithChatBasicExample.png)
+
 ## Description
 
 The workflow downloads "Química - Raymond Chang - 12va Edición.pdf" from Google Drive, splits the text into chunks, generates embeddings with the `embed-multilingual-v2.0` model from Cohere, and stores them in a Supabase vector database. A chat trigger enables question-answering using the `grok-2-1212` model from xAI, retrieving relevant context from the vector store.
